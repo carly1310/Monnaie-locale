@@ -31413,53 +31413,101 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 .u-footer {
   background-image: none;
-  min-height: 334px;
+}
+
+.u-footer .u-sheet-1 {
+  min-height: 795px;
 }
 
 .u-footer .u-text-1 {
   font-size: 1rem;
-  margin: 30px 442px 0;
+  width: 417px;
+  margin: 67px auto 0;
 }
 
 .u-footer .u-image-1 {
-  width: 335px;
-  height: 335px;
-  margin: -231px auto -31px 0;
+  width: 220px;
+  height: 222px;
+  margin: -222px auto 0 20px;
+}
+
+.u-footer .u-image-2 {
+  width: 220px;
+  height: 220px;
+  margin: -222px 20px 0 auto;
+}
+
+.u-footer .u-image-3 {
+  width: 187px;
+  height: 73px;
+  margin: -25px auto 0;
+}
+
+.u-footer .u-map-1 {
+  width: 964px;
+  height: 320px;
+  margin: 31px auto 60px;
 }
 @media (max-width: 1199px) {
-  .u-footer {
-    min-height: 334px;
-  }
-
-  .u-footer .u-text-1 {
-    width: 417px;
-    margin-left: 342px;
-    margin-right: 342px;
-  }
-
   .u-footer .u-image-1 {
-    width: 335px;
-    height: 335px;
-    margin-top: -231px;
+    width: 220px;
+    height: 222px;
+    margin-top: -222px;
+    margin-left: 20px;
+  }
+
+  .u-footer .u-image-2 {
+    width: 220px;
+    height: 220px;
+    margin-top: -222px;
+    margin-right: 20px;
+  }
+
+  .u-footer .u-image-3 {
+    width: 187px;
+    height: 73px;
+    margin-top: -277px;
+  }
+
+  .u-footer .u-map-1 {
+    width: 940px;
   }
 }
 @media (max-width: 991px) {
-  .u-footer .u-text-1 {
-    margin-left: 232px;
-    margin-right: 232px;
+  .u-footer .u-map-1 {
+    width: 720px;
   }
 }
 @media (max-width: 767px) {
-  .u-footer .u-text-1 {
-    margin-left: 142px;
-    margin-right: 142px;
+  .u-footer .u-image-1 {
+    margin-top: 36px;
+  }
+
+  .u-footer .u-image-3 {
+    margin-top: -405px;
+  }
+
+  .u-footer .u-map-1 {
+    width: 540px;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 575px) {
   .u-footer .u-text-1 {
     width: 340px;
-    margin-left: 42px;
-    margin-right: 42px;
+  }
+
+  .u-footer .u-image-1 {
+    margin-top: 190px;
+  }
+
+  .u-footer .u-image-3 {
+    margin-top: -559px;
+  }
+
+  .u-footer .u-map-1 {
+    width: 340px;
+    margin-top: 257px;
   }
 }
 
